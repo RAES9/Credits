@@ -1,10 +1,10 @@
 package com.raes.ezz;
-import com.raes.ezz.forms.CreateAgencies;
+import com.raes.ezz.forms.Menu;
 
 public class Main {
     public static void main(String[] args){
-        CreateAgencies c = new CreateAgencies();
-        c.setLocationRelativeTo(null);
-        c.setVisible(true);
+        Menu m = new Menu();
+        m.setLocationRelativeTo(null);
+        m.setVisible(true);
     }
 }
