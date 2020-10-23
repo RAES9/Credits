@@ -15,7 +15,7 @@ public class CreateEmploye extends JFrame{
     private JTextField idT;
     private JButton buscarButton;
     private JButton borrarButton;
-    private JTable table1;
+    private JScrollPane table1;
     private JPanel frame;
     private JLabel resultName;
     private JLabel resultSurname;
@@ -38,7 +38,9 @@ public class CreateEmploye extends JFrame{
                         ,rs.getString("AgencyId")});
             }
         }catch(Exception e2){ System.out.println(e2);}
-        table1.setModel(model);
+        JTable table = new JTable();
+        table.setModel(model);
+        table1.getViewport ().add (table);
     }
 
     private void getAgencies(){

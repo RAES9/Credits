@@ -16,7 +16,7 @@ public class CreateAgencies extends JFrame{
     private JTextField idT;
     private JLabel resultName;
     private JLabel resultDirection;
-    private JTable table1;
+    private JScrollPane table1;
     private JButton borrarButton;
 
     private void loadTable(){
@@ -32,7 +32,9 @@ public class CreateAgencies extends JFrame{
                         ,rs.getString("Direccion")});
             }
         }catch(Exception e2){ System.out.println(e2);}
-        table1.setModel(model);
+        JTable table = new JTable();
+        table.setModel(model);
+        table1.getViewport ().add (table);
     }
 
     public CreateAgencies(){

@@ -33,6 +33,15 @@ public class DatabaseConnection {
         }catch(Exception e){ System.out.println(e); return null;}
     }
 
+    public ResultSet searchCustomOnTable(String table, String value, String column){
+        try{
+            PreparedStatement pst = dataBase.prepareStatement("SELECT * FROM " + table + " WHERE " + column + "=?");
+            pst.setString(1, value);
+            ResultSet rs = pst.executeQuery();
+            return rs;
+        }catch(Exception e){ System.out.println(e); return null;}
+    }
+
     public void deleteOnTableWithId(String table, Integer id){
         try{
             PreparedStatement pst = dataBase.prepareStatement("DELETE FROM " + table + " WHERE Id=?");

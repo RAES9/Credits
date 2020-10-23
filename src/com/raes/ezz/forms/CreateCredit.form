@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.raes.ezz.forms.CreateCredit">
+  <grid id="27dc6" binding="frame" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="460"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="db5ed" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Impact" size="36" style="0"/>
+          <foreground color="-4521853"/>
+          <text value="Realizar Recargas"/>
+        </properties>
+      </component>
+      <grid id="96c36" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-raised"/>
+        <children>
+          <component id="11151" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="InaiMathi" size="26" style="0"/>
+              <text value="Llene los siguientes datos:"/>
+            </properties>
+          </component>
+          <component id="7bf7c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Numero"/>
+            </properties>
+          </component>
+          <component id="ea" class="javax.swing.JTextField" binding="number">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="979ab" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Monto"/>
+            </properties>
+          </component>
+          <component id="30b4e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Empresa"/>
+            </properties>
+          </component>
+          <component id="6f5a" class="javax.swing.JComboBox" binding="comboAmount">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="5.00"/>
+                <item value="10.00"/>
+                <item value="25.00"/>
+                <item value="50.00"/>
+                <item value="100.00"/>
+              </model>
+            </properties>
+          </component>
+          <component id="5ac75" class="javax.swing.JComboBox" binding="comboCompany">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="70515" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ID Empleado"/>
+            </properties>
+          </component>
+          <component id="5281e" class="javax.swing.JTextField" binding="idEmploye">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5fbf3" class="javax.swing.JButton" binding="recargarButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Recargar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b09dc" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4521853"/>
+          <foreground color="-4521853"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="431a6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="InaiMathi" size="26" style="0"/>
+          <text value="Recargas Realizadas"/>
+        </properties>
+      </component>
+      <component id="68b32" class="javax.swing.JScrollPane" binding="table1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="96bcd" class="javax.swing.JComboBox" binding="comboFilterType">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="37ba3" class="javax.swing.JButton" binding="filtrarButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Filtrar"/>
+        </properties>
+      </component>
+      <component id="bd269" class="javax.swing.JComboBox" binding="comboFilterCustom">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="5.00"/>
+            <item value="10.00"/>
+            <item value="25.00"/>
+            <item value="50.00"/>
+            <item value="100.00"/>
+          </model>
+        </properties>
+      </component>
+      <component id="497e6" class="javax.swing.JButton" binding="mostrarTodasButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar todas"/>
+        </properties>
+      </component>
+      <component id="4208e" class="javax.swing.JButton" binding="busquedaPorNumeroButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Busqueda por numero"/>
+        </properties>
+      </component>
+      <component id="44c87" class="javax.swing.JRadioButton" binding="radioButton1" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2282" class="javax.swing.JRadioButton" binding="radioButton2" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="filters">
+      <member id="44c87"/>
+      <member id="e2282"/>
+    </group>
+  </buttonGroups>
+</form>

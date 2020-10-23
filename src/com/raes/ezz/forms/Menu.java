@@ -32,7 +32,9 @@ public class Menu extends JFrame{
         recargasButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                CreateCredit c = new CreateCredit();
+                c.setLocationRelativeTo(null);
+                c.setVisible(true);
             }
         });
     }
